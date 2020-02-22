@@ -1,0 +1,297 @@
+.tag1 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+li {
+  text-align: center;
+  margin: 0 15px;
+  font-size: 3vw;
+  color: #642f2f;
+  font-family: Athelas;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #006666;
+}
+a:visited {
+  color: #666600;
+}
+a:hover {
+  color: #660066;
+}
+
+.aboutus {
+  margin: 170px 80px;
+  line-height: 2;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .aboutus {
+    margin: 100px 40px;
+  }
+}
+
+.aboutustop {
+  margin: 30px 0;
+  font-size: 30px;
+  font-family: Zapfino;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .aboutustop {
+    font-size: 15px;
+  }
+}
+
+.aboutuscomment {
+  font-size: 20px;
+  font-family: klee;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .aboutuscomment {
+    font-size: 10px;
+  }
+}
+
+.menutop {
+  margin: 50px 0;
+  font-size: 30px;
+  font-family: Zapfino;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .menutop {
+    font-size: 15px;
+  }
+}
+
+.coffee {
+  display: flex;
+}
+
+.coffeeimg {
+  width: 50%;
+  text-align: right;
+}
+
+.coffeeimg1 {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .coffeeimg1 {
+    height: 115px;
+    width: auto;
+  }
+}
+
+.coffeecomment {
+  width: 50%;
+  line-height: 2;
+  font-size: 17px;
+  font-family: klee;
+  text-align: center;
+  padding: 80px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .coffeecomment {
+    font-size: 8px;
+    transform: scale(0.8);
+    display: block;
+    padding: 10px 0px;
+  }
+}
+
+.bread {
+  display: flex;
+  margin-top: 45px;
+}
+
+.breadcomment {
+  width: 50%;
+  line-height: 2;
+  font-size: 17px;
+  font-family: klee;
+  text-align: center;
+  padding: 60px 0 60px 105px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .breadcomment {
+    font-size: 8px;
+    transform: scale(0.8);
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+.breadimg {
+  width: 50%;
+}
+
+.breadimg1 {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .breadimg1 {
+    height: 115px;
+    width: auto;
+  }
+}
+
+.phototop {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-family: Zapfino;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .phototop {
+    font-size: 15px;
+    margin-top: 100px;
+  }
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .photo {
+    display: block;
+    margin: 0;
+  }
+}
+
+.photosample {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .photoall {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .photosample {
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.address {
+  margin-top: 50px;
+}
+.local {
+  font-size: 25px;
+  font-family: Zapfino;
+  text-align: center;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .local {
+    font-size: 15px;
+    margin-top: 60px;
+  }
+}
+
+.location {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.map {
+  width: 50%;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .map {
+    margin-left: 20px;
+  }
+}
+
+.outside {
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .outside {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.tokyo {
+  width: 50%;
+  margin: 50px;
+  font-family: klee;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 600px) {
+  /*　画面サイズが764pxからはここを読み込む　*/
+  .tokyo {
+    margin: 20px;
+    font-size: 12px;
+  }
+}
+
+.tag2 {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: #41301a;
+  color: rgb(209, 206, 206);
+  text-align: center;
+  font-family: Apple Chancery;
+}
+
+.footertop {
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+.copyright {
+  padding: 25px;
+  font-size: 9px;
+}
