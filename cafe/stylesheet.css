@@ -1,3 +1,7 @@
+.top {
+  margin: 50px;
+}
+
 .tag1 {
   display: flex;
   margin-top: 20px;
@@ -205,6 +209,56 @@ a:hover {
     width: auto;
     margin-bottom: 20px;
   }
+}
+
+.news {
+  margin-top: 141px;
+  font-family: Zapfino;
+  text-align: center;
+  font-size: 27px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px;
+}
+
+.box {
+  border: solid 1px black underline;
+  height: 100px;
+  margin: 5px;
+  border-bottom: 1px dotted black;
+}
+
+.pho {
+  border: solid 1px black;
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  float: left;
+}
+
+.information {
+  float: left;
+  margin: 20px 40px;
+}
+
+.hi {
+  margin: 0;
+  font-family: osaka;
+}
+
+.direction {
+  margin: 0;
+  font-weight: bold;
+  font-family: osaka;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .address {
